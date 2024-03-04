@@ -1,8 +1,4 @@
-import pytest
-
 from autodoc.pages.main_page import MainPage
-from selene import browser
-import time
 
 
 def test_open_main_page():
