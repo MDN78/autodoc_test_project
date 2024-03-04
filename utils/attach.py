@@ -1,4 +1,4 @@
-# import os
+# # import os
 #
 # import allure
 # from allure_commons.types import AttachmentType
@@ -29,7 +29,7 @@
 #            + video_url \
 #            + "' type='video/mp4'></video></body></html>"
 #     allure.attach(html, 'video_' + browser.driver.session_id, AttachmentType.HTML, '.html')
-#
+
 #
 # def add_log_file():
 #     log_file = os.getenv('LOG_FILE')

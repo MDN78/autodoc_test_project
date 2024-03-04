@@ -1,13 +1,13 @@
-# import os
+import os
 
 import pytest
 from selene import browser
-# from selenium import webdriver
-# from selenium.webdriver import ChromeOptions
-# import allure
-# from selenium.webdriver import FirefoxOptions
-# from dotenv import load_dotenv
-# from utils import attach
+from selenium import webdriver
+from selenium.webdriver import ChromeOptions
+import allure
+from selenium.webdriver import FirefoxOptions
+from dotenv import load_dotenv
+from utils import attach
 
 
 
@@ -16,7 +16,7 @@ from selene import browser
 def driver_configuration():
     browser.config.window_width = 1920
     browser.config.window_height = 1080
-    browser.config.base_url = 'https://www.autodoc.ru'
+    browser.config.base_url = 'https://www.autodoc.ru/'
 
     yield
 
@@ -27,14 +27,15 @@ def driver_configuration():
 # DEFAULT_VERSION = '100.0'
 #
 #
-# # @allure.step('Select browser version')
+# @allure.step('Select browser version')
 # def pytest_addoption(parser):
 #     parser.addoption('--browser_name', action='store', default='chrome', help="Choose browser name.")
 #     parser.addoption('--browser_version', default='100.0',
 #                      help='Choose browser version. For Chrome: 99.0 or 100.0. For Firefox: 97.0 or 98.0.')
-
-
-# # @allure.step('Load env')
+#
+#
+#
+# @allure.step('Load env')
 # @pytest.fixture(scope='session', autouse=True)
 # def load_env():
 #     load_dotenv()
@@ -58,7 +59,7 @@ def driver_configuration():
 #
 #         browser.config.window_width = 1920
 #         browser.config.window_height = 1080
-#         browser.config.base_url = "https://www.autodoc.ru/"
+#         browser.config.base_url = "https://www.autodoc.ru"
 #
 #         selenoid_capabilities = {
 #             "browserName": browser_name,
@@ -79,7 +80,7 @@ def driver_configuration():
 #         browser.config.driver = driver
 #
 #     yield
-#
+#     #
 #     # with allure.step('Add screenshot'):
 #     #     attach.add_screenshot(browser)
 #     #
@@ -91,7 +92,7 @@ def driver_configuration():
 #     #
 #     # with allure.step('Add video'):
 #     #     attach.add_video(browser)
-#     #
+#
 #     # with allure.step('Add log file'):
 #     #     attach.add_log_file()
 #
