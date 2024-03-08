@@ -28,6 +28,13 @@
 <code><img width="5%" title="allure" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_testops.png"></code>
 <code><img width="5%" title="github" src="https://github.com/MDN78/MDN78/blob/main/assets/github.png"></code>  
 
+Для написания UI-тестов используется фреймворк `Selene`, современная «обёртка» вокруг `Selenium WebDriver`
+Библиотека модульного тестирования: `PyTest`  
+`Jenkins` выполняет удаленный запуск тестов в графическом интерфейсе. Установки дополнительных приложений на компьютер пользователя не требуется.  
+`Selenoid` запускает браузер с тестами в контейнерах `Docker` (и записывает видео)  
+Фреймворк `Allure Report` собирает графический отчет о прохождении тестов  
+После завершения тестов `Telegram Bot` отправляет в `Telegram` краткий вариант `Allure Report`  
+
 ----
 ### Локальный запуск  
 
