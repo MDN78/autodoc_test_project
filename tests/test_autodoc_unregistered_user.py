@@ -1,9 +1,9 @@
 import os
 import allure
 
-from autodoc.data.users import User
-from autodoc.pages.main_page import MainPage
+from autodoc_project.data.users import User
 from allure_commons.types import Severity
+from autodoc_project.pages.main_page import main_page
 
 
 @allure.tag('Autodoc')
@@ -13,7 +13,6 @@ from allure_commons.types import Severity
 @allure.story('Auth unregistered user')
 @allure.link('https://www.autodoc.ru/', name='Autodoc.ru')
 def test_authorization_unregistered_user():
-    main_page = MainPage()
     main_page.open()
     unregistered_user = User(
         username=os.getenv('UNREGISTERED_USER_LOGIN'),

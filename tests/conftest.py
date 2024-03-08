@@ -9,7 +9,6 @@ from selenium.webdriver import FirefoxOptions
 from dotenv import load_dotenv
 from utils import attach
 
-
 DEFAULT_VERSION = '100.0'
 
 

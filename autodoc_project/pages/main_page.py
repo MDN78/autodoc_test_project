@@ -1,7 +1,7 @@
 import allure
 from selene import browser, have, be
-from autodoc.data.users import User
-from autodoc.data.cars import Car
+from autodoc_project.data.users import User
+from autodoc_project.data.cars import Car
 from utils.logger import step
 
 
@@ -56,3 +56,6 @@ class MainPage:
     @allure.step("Checking phrase")
     def main_page_should_have_visible_text(self):
         browser.element('.homepage-content__title').should(have.exact_text('Запчасти в интернет-магазине Автодок'))
+
+
+main_page = MainPage()

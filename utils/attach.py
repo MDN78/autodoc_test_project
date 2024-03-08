@@ -2,7 +2,7 @@ import os
 import allure
 from allure_commons.types import AttachmentType
 
-from autodoc.resource import path_log_file
+from autodoc_project.resource import path_log_file
 
 
 # Скриншоты
