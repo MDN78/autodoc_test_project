@@ -59,7 +59,7 @@ allure serve
 
 ----
 
-### Удаленный запуск автотестов выполняется на сервере Jenkins  
+### <img width="3%" title="Jenkins" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg"> Удаленный запуск автотестов выполняется на сервере Jenkins  
 > <a target="_blank" href="https://jenkins.autotests.cloud/job/C10_MDN782007_qa_guru_python_10_15/">Ссылка на проект в Jenkins</a>
 
 ----
