@@ -61,7 +61,7 @@ allure serve
 ----
 
 ### <img width="3%" title="Jenkins" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg"> Удаленный запуск автотестов выполняется на сервере Jenkins  
-> <a target="_blank" href="https://jenkins.autotests.cloud/job/C10_MDN782007_qa_guru_python_10_15/">Ссылка на проект в Jenkins</a>
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/C10_MDN782007_autodoc_test_project/">Ссылка на проект в Jenkins</a>
 
 ----
 ### Параметры сборки:
@@ -80,7 +80,7 @@ allure serve
 
 #### Для запуска автотестов в Jenkins
 
-1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/C10_MDN782007_qa_guru_python_10_15/">проект</a>
+1. Открыть <a target="_blank" href="https://jenkins.autotests.cloud/job/C10_MDN782007_autodoc_test_project/">проект</a>
 2. Выбрать пункт `Build with Parameters`
 3. Выбрать браузер
 4. Выбрать версию браузера
