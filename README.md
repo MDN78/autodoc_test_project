@@ -98,7 +98,7 @@ allure serve
 
 ![image](assets/allure_report_suits.PNG)  
 
-### Видео прохождения теста:  
+### <img width="3%" title="Allure report" src="https://github.com/MDN78/MDN78/blob/main/assets/selenoid.png"> Видео прохождения теста:  
 Видеозапись каждого теста генерируется с помощью `Selenoid` после успешного запуска контейнера c тестами в `Docker`.  
 
 ![image](assets/test_example.gif)  
