@@ -1,6 +1,7 @@
 import allure
 from selene import browser, have, be
 from autodoc.data.users import User
+from autodoc.data.cars import Car
 from utils.logger import step
 
 
@@ -31,17 +32,11 @@ class MainPage:
         browser.element('#submit_logon_page').click()
         browser.element('#errorMessage').should(have.exact_text('Не удалось авторизоваться.'))
 
-
-    # @step
-    # @allure.step('Authorization')
-    # def authorization(self, name, password):
-    #     browser.element('#loginInfo').click()
-    #     browser.element('#Login').should(be.blank).send_keys(name)
-    #     browser.element('#Password').should(be.blank).send_keys(password)
-    #     browser.element('.icon.fa').click()
-    #     browser.element('#submit_logon_page').click()
-    #     browser.element('#user_info').should(have.exact_text(name))
-
+    @step
+    @allure.step("Checking authorization form")
+    def registration_form_should_have_exact_visible_text(self):
+        browser.element('.registration').click()
+        browser.element('.title').should(have.text('Регистрация пользователя'))
 
     @step
     @allure.step("Search")
@@ -49,6 +44,13 @@ class MainPage:
         browser.element('#partNumberSearch').should(be.blank).send_keys(value)
         browser.element('.search-button').click()
         browser.element('.breadcrumbs-header').should(have.text(value))
+
+    @step
+    @allure.step("Search by VIN number")
+    def search_by_vin_number(self, car: Car):
+        browser.element('[name=vin]').should(be.blank).send_keys(car.vin)
+        browser.element('.btn-transparent').click()
+        browser.element('.breadcrumbs').should(have.text('Оригинальный каталог'))
 
     @step
     @allure.step("Checking phrase")
