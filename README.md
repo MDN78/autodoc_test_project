@@ -100,6 +100,9 @@ allure serve
 Видео прохождения теста:  
 ![image](assets/test_example.gif)  
 
+### <img width="3%" title="Allure report" src="assets/tg.png"> Получение уведомлений о прохождении тестов в Telegramm   
+
+
 
 
 
