@@ -42,7 +42,7 @@ pytest
 > <a target="_blank" href="https://jenkins.autotests.cloud/job/C10_MDN782007_qa_guru_python_10_15/">Ссылка на проект в Jenkins</a>
 
 ----
-## Параметры сборки:
+### Параметры сборки:
 
 `ENVIRONMENT` - определение среды сборки, по умолчанию `PROD`  
 `BROWSER NAME` - выбор браузера  
