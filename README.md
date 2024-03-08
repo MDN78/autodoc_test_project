@@ -89,3 +89,14 @@ allure serve
 
 ![image](assets/jenkins_main_page.PNG)
 
+----
+### <img width="3%" title="Allure report" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_report.png"> Allure отчет  
+
+![image](assets/allure_report.PNG)
+
+Видеопример прохождения теста:  
+![image](assets/test_example.gif)  
+
+
+
+
