@@ -87,5 +87,5 @@ allure serve
 5. Нажать кнопку `Build`
 6. Результат запуска сборки можно посмотреть в отчёте Allure
 
-<img width="3%" title="Jenkins Build" src="images/allure_report.png">
+<img width="3%" title="Jenkins Build" src="assets/jenkins_main_page.PNG">
 
