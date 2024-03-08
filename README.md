@@ -93,8 +93,11 @@ allure serve
 ### <img width="3%" title="Allure report" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_report.png"> Allure отчет  
 
 ![image](assets/allure_report.PNG)
+Отчет позволяет получить детальную информацию по все шагам тестов, включая скриншоты и log - файлы
 
-Видеопример прохождения теста:  
+![image](assets/allure_report_suits.PNG)  
+
+Видео прохождения теста:  
 ![image](assets/test_example.gif)  
 
 
