@@ -1,7 +1,8 @@
 # Проект по тестированию сервиса поиска и подбора автозпчастей "Автодок"    
 
 ----
-> [Сайт Автодок.ру](https://www.autodoc.ru/)  
+> [Сайт Автодок.ру](https://www.autodoc.ru/)   
+> 
 ![](https://github.com/MDN78/qa_guru_python_10_15/blob/master/assets/autodoc_main_page.PNG)  
 ----
 ## Список проверок, реализованных в автотестах:  
@@ -20,6 +21,8 @@
 <code><img width="5%" title="selene" src="https://github.com/MDN78/MDN78/blob/main/assets/selene.png"></code>
 <code><img width="5%" title="pytest" src="https://github.com/MDN78/MDN78/blob/main/assets/pytest.png"></code>
 <code><img width="5%" title="selenoid" src="https://github.com/MDN78/MDN78/blob/main/assets/selenoid.png"></code>
-<code><img width="5%" title="jenkins" src="https://github.com/MDN78/MDN78/blob/main/assets/jenkins.png"></code>
+<code><img width="5%" title="jenkins" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg"></code>
 <code><img width="5%" title="vscode" src="https://github.com/MDN78/MDN78/blob/main/assets/selene.png"></code>
 <code><img width="5%" title="vscode" src="https://github.com/MDN78/MDN78/blob/main/assets/selene.png"></code>
+
+          
