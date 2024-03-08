@@ -1,4 +1,4 @@
-# Проект по тестированию сервиса поиска и подбора автозпчастей "Автодок"    
+# Проект по тестированию сервиса поиска и подбора автозпчастей, интернет магазин "Автодок"    
 
 ----
 > [Сайт Автодок.ру](https://www.autodoc.ru/)   
@@ -28,6 +28,8 @@
 <code><img width="5%" title="allure" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_testops.png"></code>
 <code><img width="5%" title="github" src="https://github.com/MDN78/MDN78/blob/main/assets/github.png"></code>  
 <code><img width="5%" title="telegram" src="assets/tg.png"></code>   
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg" />
+          
 
 > Для полноценного прохождения всех тестов должен быть или тестовый аккаунт на сайте ***Автодок*** или реальный, данные которого нужно будет указывать в файле
 `.env`  
