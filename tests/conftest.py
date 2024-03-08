@@ -32,17 +32,12 @@ def driver_configuration(request):
         browser_name = request.config.getoption('--browser_name')
         browser_version = request.config.getoption('--browser_version')
         browser_version = browser_version if browser_version != '' else DEFAULT_VERSION
-        # with allure.step('Select Driver loading strategy'):
-        #     if browser_name.lower() == 'chrome':
-        #         driver_options = ChromeOptions()
-        #         driver_options.page_load_strategy = 'eager'
-        #         browser.config.driver_options = driver_options
-        #     elif browser_name.lower() == 'firefox':
-        #         driver_options = FirefoxOptions()
-        #         driver_options.page_load_strategy = 'eager'
-        #         browser.config.driver_options = driver_options
+        with allure.step('Select Driver loading strategy'):
+            if browser_name.lower() == 'chrome':
+                driver_options = ChromeOptions()
+            elif browser_name.lower() == 'firefox':
+                driver_options = FirefoxOptions()
 
-        driver_options = ChromeOptions()
         browser.config.window_width = 1920
         browser.config.window_height = 1080
         browser.config.base_url = "https://www.autodoc.ru/"
