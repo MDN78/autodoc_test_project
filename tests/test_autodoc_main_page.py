@@ -1,26 +1,51 @@
 import os
+
+import allure
+
 from autodoc.pages.main_page import MainPage
 from autodoc.data.cars import Car
+from allure_commons.types import Severity
 
 
+@allure.tag('Autodoc')
+@allure.severity(Severity.NORMAL)
+@allure.label('MDN78', 'User')
+@allure.feature('Main page')
+@allure.story('Checking main page')
+@allure.link('https://www.autodoc.ru/', name='Autodoc.ru')
 def test_registration_form_should_have_exact_visible_text():
     main_page = MainPage()
     main_page.open()
     main_page.registration_form_should_have_exact_visible_text()
 
-
+@allure.tag('Autodoc')
+@allure.severity(Severity.NORMAL)
+@allure.label('MDN78', 'User')
+@allure.feature('Main page')
+@allure.story('Checking main page')
+@allure.link('https://www.autodoc.ru/', name='Autodoc.ru')
 def test_search_form_by_item_number():
     main_page = MainPage()
     main_page.open()
     main_page.search_item_by_tool_number('ZIC 132661')
 
-
+@allure.tag('Autodoc')
+@allure.severity(Severity.NORMAL)
+@allure.label('MDN78', 'User')
+@allure.feature('Main page')
+@allure.story('Checking main page')
+@allure.link('https://www.autodoc.ru/', name='Autodoc.ru')
 def test_main_page_should_have_exact_visible_text():
     main_page = MainPage()
     main_page.open()
     main_page.main_page_should_have_visible_text()
 
-
+@allure.tag('Autodoc')
+@allure.severity(Severity.NORMAL)
+@allure.label('MDN78', 'User')
+@allure.feature('Main page')
+@allure.story('Checking main page')
+@allure.link('https://www.autodoc.ru/', name='Autodoc.ru')
 def test_search_by_vin_number():
     main_page = MainPage()
     main_page.open()

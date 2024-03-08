@@ -1,11 +1,18 @@
 import os
 
+import allure
 import pytest
-
+from allure_commons.types import Severity
 from autodoc.data.users import User
 from autodoc.pages.main_page import MainPage
 
 
+@allure.tag('Autodoc')
+@allure.severity(Severity.NORMAL)
+@allure.label('MDN78', 'User')
+@allure.feature('Authorization')
+@allure.story('Auth registered user')
+@allure.link('https://www.autodoc.ru/', name='Autodoc.ru')
 @pytest.mark.skip
 def test_authorization_registered_user():
     main_page = MainPage()
