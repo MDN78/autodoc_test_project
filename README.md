@@ -18,8 +18,8 @@
 <p  align="left">
 <code><img width="5%" title="python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"></code>
 <code><img width="5%" title="selene" src="https://github.com/MDN78/MDN78/blob/main/assets/selene.png"></code>
-<code><img width="5%" title="vscode" src="https://github.com/MDN78/MDN78/blob/main/assets/selene.png"></code>
-<code><img width="5%" title="vscode" src="https://github.com/MDN78/MDN78/blob/main/assets/selene.png"></code>
-<code><img width="5%" title="vscode" src="https://github.com/MDN78/MDN78/blob/main/assets/selene.png"></code>
+<code><img width="5%" title="pytest" src="https://github.com/MDN78/MDN78/blob/main/assets/pytest.png"></code>
+<code><img width="5%" title="selenoid" src="https://github.com/MDN78/MDN78/blob/main/assets/selenoid.png"></code>
+<code><img width="5%" title="jenkins" src="https://github.com/MDN78/MDN78/blob/main/assets/jenkins.png"></code>
 <code><img width="5%" title="vscode" src="https://github.com/MDN78/MDN78/blob/main/assets/selene.png"></code>
 <code><img width="5%" title="vscode" src="https://github.com/MDN78/MDN78/blob/main/assets/selene.png"></code>
