@@ -47,6 +47,15 @@
 ```commandline
 pytest
 ```
+Выполнить запрос на формирование отчета  
+note: команда для Windows  
+```commandline
+allure serve
+```
+
+Результат: откроется страница с отчетом Allure Report
+
+
 
 ----
 
