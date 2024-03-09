@@ -31,7 +31,7 @@
 <code><img width="5%" title="selenoid" src="https://github.com/MDN78/MDN78/blob/main/assets/selenoid.png"></code>
 <code><img width="5%" title="jenkins" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg"></code>
 <code><img width="5%" title="allure" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_report.png"></code>
-<code><img width="5%" title="allure" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_testops.png"></code>
+<code><img width="5%" title="alluretestops" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_testops.png"></code>
 <code><img width="5%" title="github" src="https://github.com/MDN78/MDN78/blob/main/assets/github.png"></code>  
 <code><img width="5%" title="telegram" src="assets/tg.png"></code>   
 <code><img width="5%" title="pycharm" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original.svg"></code>  
@@ -123,6 +123,10 @@ allure serve
 ![image](assets/test_example.gif)
 
 ### <img width="3%" title="Allure report" src="assets/tg.png"> Получение уведомлений о прохождении тестов в Telegram
+
+### <img width="3%" title="Allure testops" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_testops.png"> Allure TestOps отчет
+
+![image](assets/allure_testops_report.PNG)  
 
 После завершения сборки специальный Telegram-бот отправляет сообщение с отчетом.  
 
