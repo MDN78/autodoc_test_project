@@ -116,6 +116,10 @@ allure serve
 
 ![image](assets/allure_report_suits.PNG)
 
+### <img width="3%" title="Allure testops" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_testops.png"> Allure TestOps отчет
+
+![image](assets/allure_testops_report.PNG)   
+
 ### <img width="3%" title="Allure report" src="https://github.com/MDN78/MDN78/blob/main/assets/selenoid.png"> Видео прохождения теста:
 
 Видеозапись каждого теста генерируется с помощью `Selenoid` после успешного запуска контейнера c тестами в `Docker`.
@@ -123,10 +127,6 @@ allure serve
 ![image](assets/test_example.gif)
 
 ### <img width="3%" title="Allure report" src="assets/tg.png"> Получение уведомлений о прохождении тестов в Telegram
-
-### <img width="3%" title="Allure testops" src="https://github.com/MDN78/MDN78/blob/main/assets/allure_testops.png"> Allure TestOps отчет
-
-![image](assets/allure_testops_report.PNG)  
 
 После завершения сборки специальный Telegram-бот отправляет сообщение с отчетом.  
 
